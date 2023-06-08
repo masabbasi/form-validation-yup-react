@@ -26,7 +26,7 @@ const Form = () => {
 				toast.success('Registration Was Successful.');
 			}
 		},
-		validationSchema:{signUpSchema}
+		validationSchema:signUpSchema
   });
 
   return (
@@ -182,7 +182,7 @@ pauseOnFocusLoss
 draggable
 pauseOnHover
 theme="dark"
-/>;
+/>
 			</>
   );
 };
