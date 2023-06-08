@@ -2,7 +2,7 @@ import * as Yup from "yup";
 
 export const signUpSchema = Yup.object({
   name: Yup.string()
-    .required("Name is required")
+    .required("Name is Required")
     .min(3, "Name Must Be At Least 3 Characters")
     .matches(
       /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/,
